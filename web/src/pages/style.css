@@ -1,0 +1,29 @@
+.create-session-form {
+  max-width: 720px;
+}
+
+.create-session-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-session-form .submit-btn-container  button{
+  float: right;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.view-session {
+  display: flex;
+  height: 100%;
+}
+
+.view-session > div {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.view-session > div:first-child {
+  flex: 2;
+  margin: 0;
+}

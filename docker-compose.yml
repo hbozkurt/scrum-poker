@@ -1,0 +1,16 @@
+mongodb:
+  image: mongo:xenial
+  ports:
+    - "27017:27017"
+api:
+  build: ./api
+  ports:
+    - "5000:5000"
+  links:
+    - mongodb
+web:
+  build: ./web
+  ports:
+    - "3000:80"
+  links:
+    - api

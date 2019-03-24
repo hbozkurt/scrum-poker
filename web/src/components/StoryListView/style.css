@@ -1,0 +1,22 @@
+.story-list-view {
+  height: 100%;
+}
+.story-list-view ul {
+  display: flex;
+  flex-direction: column;
+}
+.story-list-view ul li {
+  padding: 5px 10px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.story-list-view ul li:nth-child(2n) {
+  background: #ddd;
+}
+.story-list-view ul li.header {
+  background: #aaa;
+  font-size: .9em;
+}
+

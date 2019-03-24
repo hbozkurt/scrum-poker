@@ -1,0 +1,8 @@
+.git
+.idea
+.vs_code
+.cache
+node_modules
+npm-debug.log
+build
+coverage

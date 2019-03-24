@@ -1,0 +1,26 @@
+.input-container {
+  padding: 10px 0 20px;
+  position: relative;
+}
+.input-container label {
+  padding-right: 20px;
+}
+.input-container input, .input-container textarea {
+  width: 400px;
+  float: right;
+  padding: 0 10px;
+}
+
+.input-container .err-msg {
+  color: #a10;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  font-size: 12px;
+}
+
+/* 
+.input-container input[type="number"] {
+  text-align: right;
+}
+*/
